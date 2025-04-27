@@ -15,6 +15,7 @@ using namespace std;
 // }
 
 inline void cache(int **b ,int *a, int n){
+
     int sum[n] ;
     for (int i = 0 ;i < n ;i++){
         sum[i] = 0 ;
@@ -53,3 +54,5 @@ int main(){
     cout<<"time: "<< (tail - head) * 1000.0 / freq << "ms" << endl ;
     return 0 ;
 }
+
+
